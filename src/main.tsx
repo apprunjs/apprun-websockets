@@ -1,5 +1,5 @@
 import app from 'apprun';
-import Layout from './layout';
+import Layout from './Layout';
 
 const ws = new WebSocket(`ws://${location.host}`);
 ws.onmessage = function (msg) {
